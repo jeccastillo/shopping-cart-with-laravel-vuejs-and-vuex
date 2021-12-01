@@ -12,8 +12,8 @@ const router = new VueRouter({
     routes: [
         {
             path: '/',
-            name: 'products.index',
-            component: () => import('./components/Products/Index.vue')
+            name: 'home',
+            component: () => import('./screens/Home.vue')
         },
         {
             path: '/product/:slug',

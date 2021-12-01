@@ -36076,9 +36076,9 @@ var router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
   mode: 'history',
   routes: [{
     path: '/',
-    name: 'products.index',
+    name: 'home',
     component: function component() {
-      return __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! ./components/Products/Index.vue */ "./resources/js/components/Products/Index.vue"));
+      return __webpack_require__.e(/*! import() */ 3).then(__webpack_require__.bind(null, /*! ./screens/Home.vue */ "./resources/js/screens/Home.vue"));
     }
   }, {
     path: '/product/:slug',
@@ -36183,8 +36183,8 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\laragon\www\laravuexshoppingcart\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\laragon\www\laravuexshoppingcart\resources\css\app.css */"./resources/css/app.css");
+__webpack_require__(/*! C:\xampp2\htdocs\foodapp\foodapp2\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\xampp2\htdocs\foodapp\foodapp2\resources\css\app.css */"./resources/css/app.css");
 
 
 /***/ })
